@@ -1,0 +1,41 @@
+#HOW TO USE A FUNCTION
+
+#Think of a recipe.
+
+
+#a and b are your ingredients. You have to have your ingredients before you make a recipe
+a = 1
+b = 2
+
+
+# The function makes the recipe. First, you need the title of your recipe. this is 'add_numbers'. then, you gather your ingredients into one place. this is the 
+# '(a,b)' section of it. YOU MUST END IT WITH A COLON --> ' : '
+def add_numbers(a,b):
+    # Now you are mixing the ingredients. Return is like an internal print value.
+    return a+b
+
+# but in order to keep this value, you muust store it as another variable. Like how when you mix eggs and flour, it doesn't just stay seperately as eggs and flower.
+# Now it's batter. You need to make sure that the code knows to keep this as batter so it's not just throwing it away and keeps dumping flour and cracking eggs, so to speak.
+ab = add_numbers(a,b)
+
+# now, you can bake and pull out of the oven. You're checking your work by printing the last thing you did.
+print(ab)
+
+
+# now, just to be extra safe, let's do the same thing again. But this time, we're multiplying. We'll say this is the frosting.
+
+# I know I said 'a' and 'b' are flour and eggs but don't listen to me, I lied. 'b' is pre-prepared frosting now.
+# regardless, ab is our cake and b is our frosting. We have to mix these now as well.
+
+#so once again, name the recipe and gather your ingredients
+def multiply_numbers(ab,b):
+    #now mix your ingredients and put them in the oven.
+    return ab*b
+
+#now save your food
+ad = multiply_numbers(ab,b)
+
+#pull it out of the oven
+print(ad)
+
+#tadaaa you've figured out how to use functions that you are going to use later.
